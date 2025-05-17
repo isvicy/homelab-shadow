@@ -43,6 +43,7 @@
             shellcheck
             wireguard-tools
             yamllint
+            cloudflared
 
             (python3.withPackages (p: with p; [
               jinja2
